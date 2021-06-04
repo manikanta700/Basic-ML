@@ -1,0 +1,175 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled0.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyOh12XqftzwfcB+bwSXivzJ",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/manikanta700/Basic-ML/blob/main/python_programs\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "lw1BvNdTkSwK"
+      },
+      "source": [
+        ""
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "NwKUg_PXkc_O"
+      },
+      "source": [
+        "# Python Program : 1\n",
+        "sum of two numbers"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "dnJq9O8glO76",
+        "outputId": "0365fd83-32a3-4fe6-ae88-8cd3df77eb82"
+      },
+      "source": [
+        "a=int(input())\n",
+        "b=int(input())\n",
+        "print(a+b)"
+      ],
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "10\n",
+            "10\n",
+            "20\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "mpJtnwXIlDdy"
+      },
+      "source": [
+        ""
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "dxgYnrBIlrll"
+      },
+      "source": [
+        "#python Program : 2\n",
+        "python program to find given number is even or odd\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "8Jdpw5RPmGby",
+        "outputId": "430d0986-9e88-4673-9b73-9d3d64fcf0a0"
+      },
+      "source": [
+        "n=int(input())\n",
+        "if n%2==0:\n",
+        "  print(n,\"is even\")\n",
+        "else:\n",
+        "  print(n,\"is odd\")  "
+      ],
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "5\n",
+            "5 is odd\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "kPFHS_rek9bE"
+      },
+      "source": [
+        ""
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "IVRcb5O0mcfS"
+      },
+      "source": [
+        "#Python program : 3\n",
+        "python program to find square root of the given number"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "SOexzkkRm0gx",
+        "outputId": "262a6697-8ba1-43c8-98e6-40b43ab3ac75"
+      },
+      "source": [
+        "import math\n",
+        "n=int(input())\n",
+        "print(math.sqrt(n),\"is the required square root \")"
+      ],
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "4\n",
+            "2.0 is the required square root \n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}
