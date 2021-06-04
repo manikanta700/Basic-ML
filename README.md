@@ -2,8 +2,8 @@
 
 This is Python Programing repository 
 
-Name: Manikanta
+Name : Manikanta
 
-sec: AI&DS
+sec  : AI&DS
 
-reg: 20PA1A5455
+reg  : 20PA1A5455
